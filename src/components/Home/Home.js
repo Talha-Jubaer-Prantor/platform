@@ -21,7 +21,7 @@ const Home = () => {
               src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
               alt=""
             />
-            <h3>MR. Name</h3>
+            <h4>MR. Name</h4>
             <br />
             <span style={{ lineHeight: "2" }}>
               <a

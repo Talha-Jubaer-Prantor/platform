@@ -1,0 +1,42 @@
+.top-bar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.nav-list{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+}
+
+.nav-item{
+    text-align: center;
+    border: 1px solid white;
+    margin: 4px;
+    margin-top: 0;
+    border-radius: 5px;
+    margin-bottom: 0;
+    background-color: aliceblue;
+}
+
+.nav-item :hover{
+    text-align: center;
+    border: 1px solid white;
+    margin: 4px;
+    margin-top: 0;
+    border-radius: 5px;
+    margin-bottom: 0;
+    background-color: red;
+    color: white;
+}
+
+.nav-linK{
+    color: white !important;
+
+}
+/* .nav-link:hover{
+    background-color: red;
+} */
