@@ -35,3 +35,22 @@
     text-align: center;
     border-top: 1px solid purple;
 }
+
+.side-options{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 10%;
+    color: purple;
+}
+
+.side-options:hover {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 10%;
+    background-color: purple;
+    color: white;
+}

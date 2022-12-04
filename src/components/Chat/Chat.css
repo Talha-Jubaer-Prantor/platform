@@ -1,0 +1,38 @@
+.profile-pic{
+    background-color: palegreen;
+    width: 100%;
+    height: 55px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.oposite{
+    margin-left: 5%;
+    float: left;
+    background-color: lightblue;
+    padding-right: 3%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.me{
+    float: right;
+    background-color: #8080804d;
+    padding-left: 14px;
+    padding-right: 12px;
+    border-radius: 5px;
+    margin-left: 72%;
+}
+
+.active-connection{
+    padding: 10px;
+}
+
+.active{
+    margin-bottom: 10px;
+    background-color: rgb(47, 255, 57);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+}

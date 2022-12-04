@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
+import Chat from "../Chat/Chat";
 import "./Home.css";
 const Home = () => {
   const [posts, setPosts] = useState([]);
@@ -23,82 +24,75 @@ const Home = () => {
             />
             <h4>MR. Name</h4>
             <br />
-            <span style={{ lineHeight: "2" }}>
-              <a
+            <span style={{ lineHeight: "2", textAlign:"left" }}>
+              <a className="side-options"
                 href="/"
                 style={{
                   textDecoration: "none",
-                  color: "purple",
                   borderBottom: "1px solid",
                 }}
               >
-                Professional Dashboard
+              <i style={{textAlign:"center"}} class="fa-solid fa-list"></i>  Professional Dashboard
               </a>
               <br />
-              <a
+              <a className="side-options"
                 href="/"
                 style={{
                   textDecoration: "none",
-                  color: "purple",
                   borderBottom: "1px solid",
                 }}
               >
-                Liked
+               <i style={{textAlign:"center"}} class="fa-solid fa-thumbs-up"></i> Liked
               </a>
               <br />
-              <a
+              <a className="side-options"
                 href="/"
                 style={{
                   textDecoration: "none",
-                  color: "purple",
                   borderBottom: "1px solid",
                 }}
               >
-                Saved
+               <i style={{textAlign:"center"}} class="fa-solid fa-floppy-disk"></i> Saved
               </a>
               <br />
-              <a
+              <a className="side-options"
                 href="/"
                 style={{
                   textDecoration: "none",
-                  color: "purple",
                   borderBottom: "1px solid",
                 }}
               >
-                Event
+               <i style={{textAlign:"center"}} class="fa-solid fa-calendar-days"></i> Event
               </a>
               <br />
-              <a
+              <a className="side-options"
                 href="/"
                 style={{
                   textDecoration: "none",
-                  color: "purple",
                   borderBottom: "1px solid",
                 }}
               >
-                Workshop
+               <i style={{textAlign:"center"}} class="fa-solid fa-store"></i> Workshop
               </a>
               <br />
-              <a
+              <a className="side-options"
                 href="/"
                 style={{
                   textDecoration: "none",
-                  color: "purple",
                   borderBottom: "1px solid",
                 }}
               >
-                Explore People
+               <i style={{textAlign:"center"}} class="fa-solid fa-person"></i> Explore People
               </a>
               <br />
-              <a
+              <a className="side-options"
                 href="/"
                 style={{
                   textDecoration: "none",
-                  color: "purple",
                   borderBottom: "1px solid",
                 }}
               >
-                Groups
+              <i style={{textAlign:"center"}} class="fa-solid fa-layer-group"></i> Groups
               </a>
             </span>
           </div>
@@ -125,7 +119,19 @@ const Home = () => {
           ))}
         </div>
         <div className="chat-sec">
-          <div className="chat"></div>
+          {/* Chat box */}
+          <div className="chat">
+              <div className="chat-box">
+
+                <Chat></Chat>
+
+              </div>
+
+
+
+
+
+          </div>
         </div>
       </div>
     </div>

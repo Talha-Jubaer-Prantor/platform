@@ -14,7 +14,7 @@
 
 .nav-item{
     text-align: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 4px;
     margin-top: 0;
     border-radius: 5px;
@@ -22,7 +22,7 @@
     background-color: aliceblue;
 }
 
-.nav-item :hover{
+/* .nav-item :hover{
     text-align: center;
     border: 1px solid white;
     margin: 4px;
@@ -31,12 +31,14 @@
     margin-bottom: 0;
     background-color: red;
     color: white;
-}
+} */
 
 .nav-linK{
     color: white !important;
 
 }
-/* .nav-link:hover{
+.nav-link:hover{
     background-color: red;
-} */
+    color: white;
+    border: none;
+}
