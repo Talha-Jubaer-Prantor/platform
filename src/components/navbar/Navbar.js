@@ -7,7 +7,7 @@ const Navbar = () => {
       
       <div className="top-bar">
       <div>
-      <a class="navbar-brand" href="#" style={{color:"black"}}><b>AppendIn</b></a>
+      <a class="navbar-brand" href="/" style={{color:"black"}}><b>AppendIn</b></a>
 
         </div>
         <div>
