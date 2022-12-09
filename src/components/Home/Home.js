@@ -14,7 +14,7 @@ const Home = () => {
   console.log(posts);
   return (
     <div>
-nkjnjkn
+
       <div className="home-container">
         <div className="profile-sec">
           <div style={{ textAlign: "center" }}>
