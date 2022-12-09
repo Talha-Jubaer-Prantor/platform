@@ -80,6 +80,7 @@ const Navbar = () => {
                   <div
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
+                    style={{backgroundColor:"white"}}
                   >
                     <a className="dropdown-item" href="/">
                       Director/Management

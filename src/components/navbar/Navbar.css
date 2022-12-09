@@ -54,4 +54,10 @@
     border: #fff;
     box-shadow: inset 2px 3px 6px #00000073, -6px -6px 16px white;
     border-radius: 6px;
+    color: white;
+}
+
+.dropdown-item:hover{
+    background-color: purple;
+    color: white;
 }
