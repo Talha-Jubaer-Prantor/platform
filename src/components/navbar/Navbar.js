@@ -30,7 +30,13 @@ const Navbar = () => {
         </div>
 
         <div>
-          <a href="/">Register</a>/<a href="/">My Account</a>
+            <a href="/">
+            <i style={{fontSize:"25px"}} class="fa-solid fa-bell"></i>
+            </a>
+        </div>
+        <div>
+            <a href="/">Register</a>/<a href="/">My Account</a>
+
         </div>
       </div>
 
@@ -298,15 +304,6 @@ const Navbar = () => {
                 </div>
 
 
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link "
-                  href="/"
-                  style={{ fontWeight: "700", color: "#000000b0" }}
-                >
-                  Notification
-                </a>
               </li>
               <li className="nav-item">
                 <a

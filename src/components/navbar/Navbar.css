@@ -1,6 +1,6 @@
 .top-bar{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 35% 35% 15% 15%;;
     text-align: center;
     align-items: center;
 }
