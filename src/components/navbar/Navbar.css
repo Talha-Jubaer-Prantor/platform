@@ -5,7 +5,17 @@
     align-items: center;
 }
 
+.form-control{
+    box-shadow:inset 2px 3px 6px #00000073,inset -6px -6px 16px white;
 
+}
+
+.btn-outline-success{
+    box-shadow: 2px 3px 6px #00000073, -6px -6px 16px white;
+    border: none;
+    background-color: gainsboro;
+    color: purple;
+}
 
 .nav-list{
     display: grid;
@@ -20,23 +30,17 @@
     border-radius: 5px;
     margin-bottom: 0;
     background-color: aliceblue;
+
+
+    font-weight: 700;
+    background-color: #dcdcdc;
+    border: #fff;
+    box-shadow: inset 2px 3px 6px #00000073, -6px -6px 16px white;
+    border-radius: 6px;
 }
 
-/* .nav-item :hover{
-    text-align: center;
-    border: 1px solid white;
-    margin: 4px;
-    margin-top: 0;
-    border-radius: 5px;
-    margin-bottom: 0;
-    background-color: red;
-    color: white;
-} */
 
-.nav-linK{
-    color: white !important;
 
-}
 .nav-link:hover{
     background-color: red;
     color: white;

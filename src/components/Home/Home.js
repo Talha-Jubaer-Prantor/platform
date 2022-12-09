@@ -111,9 +111,9 @@ const Home = () => {
               <h5>{post.title}</h5>
               <p>{post.body}</p>
               <div className="like-comment-save">
-                <span style={{borderRight:"1px solid purple"}}>Like</span>
-                <span style={{borderRight:"1px solid purple"}}>Comment</span>
-                <span>Save</span>
+                <span style={{marginRight:"5px",marginLeft:"5px",boxShadow:" 3px 3px 10px #00000099, -3px -3px 10px white",borderRadius:"5px"}}>Like</span>
+                <span style={{marginRight:"5px",marginLeft:"5px",boxShadow:" 3px 3px 10px #00000099, -3px -3px 10px white",borderRadius:"5px"}}>Comment</span>
+                <span style={{marginRight:"5px",marginLeft:"5px",boxShadow:" 3px 3px 10px #00000099, -3px -3px 10px white",borderRadius:"5px"}}>Save</span>
               </div>
             </div>
           ))}
