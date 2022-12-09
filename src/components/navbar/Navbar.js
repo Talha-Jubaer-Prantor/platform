@@ -246,7 +246,7 @@ const Navbar = () => {
                   href="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
-                  ACCA
+                  Aptitude Test
                 </a>
               </li>
               <li className="nav-item">
