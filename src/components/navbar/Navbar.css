@@ -29,7 +29,7 @@
     margin-top: 0;
     border-radius: 5px;
     margin-bottom: 0;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 
 
     font-weight: 700;
@@ -39,10 +39,19 @@
     border-radius: 6px;
 }
 
+.nav-item :hover{
+    text-align: center;
+    /* border: 1px solid white; */
+    /* margin: 4px; */
+    margin-top: 0;
+    border-radius: 5px;
+    /* margin-bottom: 0; */
+    /* background-color: aliceblue; */
 
 
-.nav-link:hover{
-    background-color: red;
-    color: white;
-    border: none;
+    font-weight: 700;
+    background-color: purple;
+    border: #fff;
+    box-shadow: inset 2px 3px 6px #00000073, -6px -6px 16px white;
+    border-radius: 6px;
 }

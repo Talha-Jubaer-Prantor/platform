@@ -72,7 +72,7 @@ const Navbar = () => {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none" }}
+                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px" }}
                   >
                     Connect
                   </a>
@@ -129,7 +129,7 @@ const Navbar = () => {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none" }}
+                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px"  }}
                   >
                     Post
                   </a>
@@ -167,7 +167,7 @@ const Navbar = () => {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none" }}
+                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px"  }}
                   >
                     Jobs
                   </a>
@@ -208,7 +208,7 @@ const Navbar = () => {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none" }}
+                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px"  }}
                   >
                     Services
                   </a>
@@ -246,7 +246,7 @@ const Navbar = () => {
                   href="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
-                  Aptitude Test
+                  Aptitude
                 </a>
               </li>
               <li className="nav-item">
@@ -266,7 +266,7 @@ const Navbar = () => {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none" }}
+                    style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px"  }}
                   >
                     Abroad
                   </a>
