@@ -144,6 +144,7 @@ const Navbar = () => {
                   <div
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
+                    style={{backgroundColor:"white"}}
                   >
                     <a className="dropdown-item" href="/">
                       Normal Post
@@ -182,6 +183,8 @@ const Navbar = () => {
                   <div
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
+                    style={{backgroundColor:"white"}}
+
                   >
                     <a className="dropdown-item" href="/">
                       National
@@ -223,6 +226,8 @@ const Navbar = () => {
                   <div
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
+                    style={{backgroundColor:"white"}}
+
                   >
                     <a className="dropdown-item" href="/">
                       Company
@@ -281,6 +286,8 @@ const Navbar = () => {
                   <div
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
+                    style={{backgroundColor:"white"}}
+
                   >
                     <a className="dropdown-item" href="/">
                     Undergraduate
@@ -321,6 +328,15 @@ const Navbar = () => {
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Contact
+                </a>
+              </li>
+              <li className="nav-item  ">
+                <a
+                  className="nav-link"
+                  href="/aboutus"
+                  style={{ fontWeight: "700", color: "#000000b0" }}
+                >
+                  About Us
                 </a>
               </li>
             </ul>
