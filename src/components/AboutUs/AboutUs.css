@@ -230,12 +230,12 @@ section {
     overflow-x: hidden;
 }
 
-.slider-com-link{
+/* .slider-com-link{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: ;
     margin-right: 20px;
-}
+} */
 .slider-com-link a{
     padding: 10px 25px;
     background: #4d5172;
