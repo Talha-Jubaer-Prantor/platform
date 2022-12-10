@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../navbar/Navbar";
 import "./AboutUs.css";
 
 const AboutUs = () => {
@@ -6,6 +7,7 @@ const AboutUs = () => {
 
   return (
     <div>
+      <Navbar></Navbar>
       <section>
         <div id="page">
           <div id="about" class="pageControl"></div>
@@ -88,9 +90,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      {/* <script> */}
-
-      {/* </script> */}
+      
     </div>
   );
 };

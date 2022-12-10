@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import Chat from "../Chat/Chat";
+import Navbar from "../navbar/Navbar";
 import "./Home.css";
 const Home = () => {
   const [posts, setPosts] = useState([]);
@@ -14,7 +15,7 @@ const Home = () => {
   console.log(posts);
   return (
     <div>
-
+      <Navbar></Navbar>
       <div className="home-container">
         <div className="profile-sec">
           <div style={{ textAlign: "center" }}>
@@ -27,7 +28,7 @@ const Home = () => {
             <br />
             <span style={{ lineHeight: "2", textAlign:"left" }}>
               <a className="side-options"
-                href="/"
+                href="/professionaldashboard"
                 style={{
                   textDecoration: "none",
                   borderBottom: "1px solid",
