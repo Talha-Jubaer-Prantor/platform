@@ -3,17 +3,17 @@ import "./Contact.css"
 import { NavLink } from 'react-router-dom';
 
 
-const bgCover = {
-    // background: `url(${bg})`,
-    backgroundColor: 'rgba(0, 0, 0, 0.80)',
-    backgroundPosition: 'center top',
-    backgroundBlendMode: 'darken, luminosity',
-}
+// const bgCover = {
+//     // background: `url(${bg})`,
+//     backgroundColor: 'rgba(0, 0, 0, 0.80)',
+//     backgroundPosition: 'center top',
+//     backgroundBlendMode: 'darken, luminosity',
+// }
 const Contact = () => {
     return (
         <div style={{backgroundColor:'gainsboro'}}>
 
-            <div style={bgCover} className="py-5 text-center mb-5">
+            <div  className="py-5 text-center mb-5">
                 <h1 style={{ color: 'purple', marginBottom: '15px' }} >CONTACT US</h1>
                 <p className="text-color fw-bold  fs-5"> <NavLink className="text-decoration-none text-primary" to="/">Home   /   </NavLink>Contact Us</p>
             </div>
