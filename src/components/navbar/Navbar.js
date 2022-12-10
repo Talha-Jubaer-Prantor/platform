@@ -35,7 +35,7 @@ const Navbar = () => {
             </a>
         </div>
         <div>
-            <a href="/">Register</a>/<a href="/">My Account</a>
+            <a href="/register" style={{color:"black"}}>Register</a>/<a style={{color:"black"}} href="/login">My Account</a>
 
         </div>
       </div>

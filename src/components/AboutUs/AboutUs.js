@@ -2,25 +2,7 @@ import React from "react";
 import "./AboutUs.css";
 
 const AboutUs = () => {
-  // var swiper2 = new Swiper('.swiper2', {
-  //     effect:"coverflow",
-  //             direction: 'horizontal',
-  //             loop: true,
-  //             autoplay: {
-  //             disableOnInteraction: false,
-  //             pauseOnMouseEnter: true,
-  //             },
-  //             pagination: {
-  //             el: ".swiper-pagination1",
-  //             clickable:true,
-  //             },
-  //             coverflowEffect:{
-  //                 slideShadows: false,
-  //                 rotate:20,
-  //                 scale:0.70,
-  //             }
-
-  //     });
+  
 
   return (
     <div>
@@ -31,7 +13,7 @@ const AboutUs = () => {
             <div class="container">
               <div class="section-box-container">
                 <div class="experince-header">
-                  <span class="experince-header-set">About me</span>
+                  <span class="experince-header-set">About Us</span>
                 </div>
                 <div class="about-container">
                   <div class="about-me-section">
@@ -97,14 +79,8 @@ const AboutUs = () => {
             <div class="comment-section-container">
               <div class="comment-section">
                 
-                {/* <marquee behavior="slide" direction="left">
-                    <div className="marque-slide">
-                        Lorem ipsum dolor, sit amet consectetur adip
-                    </div>
-                    <div className="marque-slide">
-                        Lorem ipsum dolor, sit amet consectetur adip
-                    </div>
-                </marquee> */}
+                
+
 
                 
               </div>
@@ -112,7 +88,6 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
       {/* <script> */}
 
       {/* </script> */}

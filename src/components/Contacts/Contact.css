@@ -1,0 +1,17 @@
+.border{
+    box-shadow:  2px 3px 6px #00000073, -6px -6px 16px white;
+    background-color: gainsboro;
+}
+
+.my-5{
+    background-color: gainsboro;
+}
+
+.my-3{
+    
+    background-color: gainsboro;
+}
+
+.p-4{
+    padding: 0;
+}
