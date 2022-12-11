@@ -1,5 +1,4 @@
 import React from 'react';
-import image from "../../img/signup-background.png"; 
 import Navbar from '../navbar/Navbar';
 import "./SignUp.css"
 
