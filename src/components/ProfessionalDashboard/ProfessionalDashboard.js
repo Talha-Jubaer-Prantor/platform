@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import "./ProfessionalDashboard.css"
 
 const ProfessionalDashboard = () => {
@@ -31,45 +32,45 @@ const ProfessionalDashboard = () => {
         </div>
         <ul className="nav_list" style={{paddingLeft:"0px"}}>
             <li>
-                <a href="/">
+                <Link to="/">
                 <i style={{color:"black"}} className="fa-solid fa-user"></i>
                     <span className="link_names">Profile</span>
-                </a>
+                </Link>
                 <span className="tooltip">Profile</span>
             </li><br />
             <li>
-                <a href="/">
+                <Link to="/">
                 <i style={{color:"black"}} className="fa-solid fa-layer-group"></i>
                     <span className="link_names">My courses</span>
-                </a>
+                </Link>
                 <span className="tooltip">My courses</span>
             </li><br />
             <li>
-                <a href="/">
+                <Link to="/">
                 <i style={{color:"black"}} className="fa-sharp fa-solid fa-trophy"></i>
                     <span className="link_names">Achivements</span>
-                </a>
+                </Link>
                 <span className="tooltip">Achivement</span>
             </li><br />
             <li>
-                <a href="/">
+                <Link to="/">
                 <i style={{color:"black"}} className="fa-solid fa-gears"></i>
                     <span className="link_names">Settings</span>
-                </a>
+                </Link>
                 <span className="tooltip">Settings</span>
             </li><br />
             <li>
-                <a href="/">
+                <Link to="/">
                 <i style={{color:"black"}} className="fa-solid fa-right-from-bracket"></i>
                     <span className="link_names">Log Out</span>
-                </a>
+                </Link>
                 <span className="tooltip">Log Out</span>
             </li><br />
             <li>
-                <a href="/">
+                <Link to="/">
                 <i style={{color:"black"}} className="fa-solid fa-star"></i>
                     <span className="link_names">Dummy</span>
-                </a>
+                </Link>
                 <span className="tooltip">Dummy</span>
             </li>
         </ul>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import "./AboutUs.css";
 
@@ -43,19 +44,18 @@ const AboutUs = () => {
                       </div>
                     </div>
                     <div class="skills-bar-about">
-                      <a href="/" class="social-links">
+                      <Link to="/" class="social-links">
                         <i class="margin fa-brands fa-github"></i>
-                      </a>
-                      <a href="/" class="social-links">
+                      </Link>
+                      <Link to="/" class="social-links">
                         <i class="fa-brands fa-linkedin-in"></i>
-                      </a>
-                      <a href="/" class="social-links">
+                      </Link>
+                      <Link to="/" class="social-links">
                         <i class="insta fa-brands fa-instagram"></i>
-                      </a>
-                      {/* <a href='/' class="social-links" href="https://open.spotify.com/user/21xbxidz623as32iw4r3u3uiq" target="_blank"><i class="fa-brands fa-spotify"></i></a> */}
-                      <a href="/" class="social-links">
+                      </Link>
+                      <Link to="/" class="social-links">
                         <i class="fa-brands fa-codepen"></i>
-                      </a>
+                      </Link>
                     </div>
                     <div style={{ color: "#bfc0c4" }} class="about-text">
                       My interests

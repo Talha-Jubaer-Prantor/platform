@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Chat from "../Chat/Chat";
 import Navbar from "../navbar/Navbar";
 import "./Home.css";
@@ -27,75 +28,75 @@ const Home = () => {
             <h4>MR. Name</h4>
             <br />
             <span style={{ lineHeight: "2", textAlign:"left" }}>
-              <a className="side-options"
-                href="/professionaldashboard"
+              <Link className="side-options"
+                to="/professionaldashboard"
                 style={{
                   textDecoration: "none",
                   borderBottom: "1px solid",
                 }}
               >
               <i style={{textAlign:"center"}} class="fa-solid fa-list"></i>  Professional Dashboard
-              </a>
+              </Link>
               <br />
-              <a className="side-options"
-                href="/"
+              <Link className="side-options"
+                to="/"
                 style={{
                   textDecoration: "none",
                   borderBottom: "1px solid",
                 }}
               >
                <i style={{textAlign:"center"}} class="fa-solid fa-thumbs-up"></i> Liked
-              </a>
+              </Link>
               <br />
-              <a className="side-options"
-                href="/"
+              <Link className="side-options"
+                to="/"
                 style={{
                   textDecoration: "none",
                   borderBottom: "1px solid",
                 }}
               >
                <i style={{textAlign:"center"}} class="fa-solid fa-floppy-disk"></i> Saved
-              </a>
+              </Link>
               <br />
-              <a className="side-options"
-                href="/"
+              <Link className="side-options"
+                to="/"
                 style={{
                   textDecoration: "none",
                   borderBottom: "1px solid",
                 }}
               >
                <i style={{textAlign:"center"}} class="fa-solid fa-calendar-days"></i> Event
-              </a>
+              </Link>
               <br />
-              <a className="side-options"
-                href="/"
+              <Link className="side-options"
+                to="/"
                 style={{
                   textDecoration: "none",
                   borderBottom: "1px solid",
                 }}
               >
                <i style={{textAlign:"center"}} class="fa-solid fa-store"></i> Workshop
-              </a>
+              </Link>
               <br />
-              <a className="side-options"
-                href="/"
+              <Link className="side-options"
+                to="/"
                 style={{
                   textDecoration: "none",
                   borderBottom: "1px solid",
                 }}
               >
                <i style={{textAlign:"center"}} class="fa-solid fa-person"></i> Explore People
-              </a>
+              </Link>
               <br />
-              <a className="side-options"
-                href="/"
+              <Link className="side-options"
+                to="/"
                 style={{
                   textDecoration: "none",
                   borderBottom: "1px solid",
                 }}
               >
               <i style={{textAlign:"center"}} class="fa-solid fa-layer-group"></i> Groups
-              </a>
+              </Link>
             </span>
           </div>
         </div>

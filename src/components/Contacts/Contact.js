@@ -1,14 +1,9 @@
 import React from "react";
 import "./Contact.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 
-// const bgCover = {
-//     // background: `url(${bg})`,
-//     backgroundColor: 'rgba(0, 0, 0, 0.80)',
-//     backgroundPosition: 'center top',
-//     backgroundBlendMode: 'darken, luminosity',
-// }
+
 const Contact = () => {
   return (
     <div>
@@ -110,13 +105,13 @@ const Contact = () => {
                 <div className="col-9 ps-4 pt-2">
                   <h3 className="fw-bold text-dark text-start">Phone</h3>
                   <p className="text-start">
-                    <a
+                    <Link
                       className="text-decoration-none fs-5 text-dark"
                       aria-current="page"
-                      href="tel:00123456789"
+                      to="tel:00123456789"
                     >
                       00123456789
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>

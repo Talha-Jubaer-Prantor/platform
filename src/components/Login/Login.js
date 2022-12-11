@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar"
 import "./Login.css";
 
@@ -18,20 +19,20 @@ const Login = () => {
               <input type="password" name="" required="" />
               <label style={{ color: "white" }}>Password</label>
             </div>
-            <a href="/">
+            <Link to="/">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
               Log in
-            </a>
-            <a href="/">
+            </Link>
+            <Link to="/">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
               Create
-            </a>
+            </Link>
           </form>
         </div>
       </div>

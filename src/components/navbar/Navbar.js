@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -6,9 +7,9 @@ const Navbar = () => {
     <div>
       <div className="top-bar">
         <div>
-          <a className="navbar-brand" href="/" style={{ color: "black" }}>
+          <Link className="navbar-brand" to="/" style={{ color: "black" }}>
             <b>AppendIn</b>
-          </a>
+          </Link>
         </div>
         <div>
           <nav className="navbar navbar-light bg-light">
@@ -30,12 +31,12 @@ const Navbar = () => {
         </div>
 
         <div>
-            <a href="/">
+            <Link to="/">
             <i style={{fontSize:"25px"}} class="fa-solid fa-bell"></i>
-            </a>
+            </Link>
         </div>
         <div>
-            <a href="/register" style={{color:"black"}}>Register</a>/<a style={{color:"black"}} href="/login">My Account</a>
+            <Link to="/register" style={{color:"black"}}>Register</Link>/<Link style={{color:"black"}} to="/login">My Account</Link>
 
         </div>
       </div>
@@ -57,22 +58,22 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" style={{}} id="navbarNav">
             <ul className="navbar-nav nav-list">
               <li className="nav-item  ">
-                <a
+                <Link
                   className="nav-link"
-                  href="/"
+                  to="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item ">
-                {/* <a className="nav-link" href="/" style={{fontWeight:"700",color:"#000000b0"}}>
+                {/* <Link className="nav-link" to="/" style={{fontWeight:"700",color:"#000000b0"}}>
                 Conect
-              </a> */}
+              </Link> */}
                 <div className="dropdown show">
-                  <a
+                  <Link
                     className="btn  dropdown-toggle"
-                    href="/"
+                    to="/"
                     role="button"
                     id="dropdownMenuLink"
                     data-toggle="dropdown"
@@ -81,56 +82,56 @@ const Navbar = () => {
                     style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px" }}
                   >
                     Connect
-                  </a>
+                  </Link>
 
                   <div
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
                     style={{backgroundColor:"white"}}
                   >
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       Director/Management
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       HR
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Finance
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Marketing
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Sales
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Supply Chain
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Engineer
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Doctor
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Technical
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </li>
               <li className="nav-item ">
-                {/* <a
+                {/* <Link
                   className="nav-link"
-                  href="/"
+                  to="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Post
-                </a> */}
+                </Link> */}
 
                 <div className="dropdown show">
-                  <a
+                  <Link
                     className="btn  dropdown-toggle"
-                    href="/"
+                    to="/"
                     role="button"
                     id="dropdownMenuLink"
                     data-toggle="dropdown"
@@ -139,37 +140,37 @@ const Navbar = () => {
                     style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px"  }}
                   >
                     Post
-                  </a>
+                  </Link>
 
                   <div
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
                     style={{backgroundColor:"white"}}
                   >
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       Normal Post
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Paid Promotion
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
 
               </li>
               <li className="nav-item">
-                {/* <a
+                {/* <Link
                   className="nav-link"
-                  href="/"
+                  to="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Jobs
-                </a> */}
+                </Link> */}
 
                 <div className="dropdown show">
-                  <a
+                  <Link
                     className="btn  dropdown-toggle"
-                    href="/"
+                    to="/"
                     role="button"
                     id="dropdownMenuLink"
                     data-toggle="dropdown"
@@ -178,7 +179,7 @@ const Navbar = () => {
                     style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px"  }}
                   >
                     Jobs
-                  </a>
+                  </Link>
 
                   <div
                     className="dropdown-menu"
@@ -186,33 +187,33 @@ const Navbar = () => {
                     style={{backgroundColor:"white"}}
 
                   >
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       National
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       International
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       Multinational
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
 
               </li>
               <li className="nav-item">
-                {/* <a
+                {/* <Link
                   className="nav-link"
-                  href="/"
+                  to="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Service
-                </a> */}
+                </Link> */}
 
                 <div className="dropdown show">
-                  <a
+                  <Link
                     className="btn  dropdown-toggle"
-                    href="/"
+                    to="/"
                     role="button"
                     id="dropdownMenuLink"
                     data-toggle="dropdown"
@@ -221,7 +222,7 @@ const Navbar = () => {
                     style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px"  }}
                   >
                     Services
-                  </a>
+                  </Link>
 
                   <div
                     className="dropdown-menu"
@@ -229,50 +230,50 @@ const Navbar = () => {
                     style={{backgroundColor:"white"}}
 
                   >
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       Company
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                     Individual
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       SME
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
 
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link "
-                  href="/"
+                  to="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Course
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link "
-                  href="/"
+                  to="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Aptitude
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                {/* <a
+                {/* <Link
                   className="nav-link "
-                  href="/"
+                  to="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Abroad
-                </a> */}
+                </Link> */}
                 <div className="dropdown show">
-                  <a
+                  <Link
                     className="btn  dropdown-toggle"
-                    href="/"
+                    to="/"
                     role="button"
                     id="dropdownMenuLink"
                     data-toggle="dropdown"
@@ -281,7 +282,7 @@ const Navbar = () => {
                     style={{ fontWeight: "700", color: "#000000b0",boxShadow:"none",paddingBottom:"9px"  }}
                   >
                     Abroad
-                  </a>
+                  </Link>
 
                   <div
                     className="dropdown-menu"
@@ -289,55 +290,55 @@ const Navbar = () => {
                     style={{backgroundColor:"white"}}
 
                   >
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                     Undergraduate
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                     Masters
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                       PHD
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                     Professionals
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                     Working
-                    </a>
-                    <a className="dropdown-item" href="/">
+                    </Link>
+                    <Link className="dropdown-item" to="/">
                     Travel
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
 
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link "
-                  href="/"
+                  to="/"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Payment
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link "
-                  href="/contact"
+                  to="/contact"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="nav-item  ">
-                <a
+                <Link
                   className="nav-link"
-                  href="/aboutus"
+                  to="/aboutus"
                   style={{ fontWeight: "700", color: "#000000b0" }}
                 >
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
