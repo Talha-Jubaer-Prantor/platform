@@ -12,8 +12,7 @@ const ProfessionalDashboard = () => {
         setSidebar(false)
     }else{
         setSidebar(true)
-    }
-        
+    } 
     }
     
 
@@ -22,68 +21,53 @@ const ProfessionalDashboard = () => {
 
     return (
         <div>
-            
             <div className={`sidebar ${sidebar? "active":""}`} id='sidebar'>
         <div className="logo_content">
             <div className="logo">
                 <i className='bx bxl-c-plus-plus' style={{fontSize: "30px"}}></i>
-                <div className="logoname" style={{marginLeft: "5px"}}>AppendIn</div>
+                <div className="logoname" style={{marginLeft: "5px",color:"black"}}>AppendIn</div>
             </div>
-            <i className='bx bx-menu-alt-right fa-solid fa-bars' onClick={btn} id="btn" style={{fontSize: "25px"}} ></i>
+            <i  className='bx bx-menu-alt-right fa-solid fa-bars' onClick={btn} id="btn" style={{fontSize: "25px",color:"black",boxShadow:"  2px 2px 6px #00000073, -2px -2px 9px white",borderRadius:"5px"}} ></i>
         </div>
         <ul className="nav_list" style={{paddingLeft:"0px"}}>
             <li>
                 <a href="/">
-                <i className="fa-solid fa-star"></i>
-                    <span className="link_names">Dummy</span>
+                <i style={{color:"black"}} className="fa-solid fa-user"></i>
+                    <span className="link_names">Profile</span>
                 </a>
-                <span className="tooltip">Dummy</span>
-            </li>
+                <span className="tooltip">Profile</span>
+            </li><br />
             <li>
                 <a href="/">
-                <i className="fa-solid fa-star"></i>
-                    <span className="link_names">Dummy</span>
+                <i style={{color:"black"}} className="fa-solid fa-layer-group"></i>
+                    <span className="link_names">My courses</span>
                 </a>
-                <span className="tooltip">Dummy</span>
-            </li>
+                <span className="tooltip">My courses</span>
+            </li><br />
             <li>
                 <a href="/">
-                <i className="fa-solid fa-star"></i>
-                    <span className="link_names">Dummy</span>
+                <i style={{color:"black"}} className="fa-sharp fa-solid fa-trophy"></i>
+                    <span className="link_names">Achivements</span>
                 </a>
-                <span className="tooltip">Dummy</span>
-            </li>
+                <span className="tooltip">Achivement</span>
+            </li><br />
             <li>
                 <a href="/">
-                <i className="fa-solid fa-star"></i>
-                    <span className="link_names">Dummy</span>
+                <i style={{color:"black"}} className="fa-solid fa-gears"></i>
+                    <span className="link_names">Settings</span>
                 </a>
-                <span className="tooltip">Dummy</span>
-            </li>
+                <span className="tooltip">Settings</span>
+            </li><br />
             <li>
                 <a href="/">
-                <i className="fa-solid fa-star"></i>
-                    <span className="link_names">Dummy</span>
+                <i style={{color:"black"}} className="fa-solid fa-right-from-bracket"></i>
+                    <span className="link_names">Log Out</span>
                 </a>
-                <span className="tooltip">Dummy</span>
-            </li>
+                <span className="tooltip">Log Out</span>
+            </li><br />
             <li>
                 <a href="/">
-                <i className="fa-solid fa-star"></i>
-                    <span className="link_names">Dummy</span>
-                </a>
-                <span className="tooltip">Dummy</span>
-            </li>
-            <li>
-                <a href="/">
-                <i className="fa-solid fa-star"></i>
-                    <span className="link_names">Dummy</span>
-                </a>
-                <span className="tooltip">Dummy</span>
-            </li>
-            <li>
-                <a href="/">
-                <i className="fa-solid fa-star"></i>
+                <i style={{color:"black"}} className="fa-solid fa-star"></i>
                     <span className="link_names">Dummy</span>
                 </a>
                 <span className="tooltip">Dummy</span>
@@ -98,7 +82,7 @@ const ProfessionalDashboard = () => {
                         <div className="job">Role</div>
                     </div>
                 </div>
-                <i className='bx bx-log-out' id="log_out"></i>
+                <i style={{color:"black"}} className='bx bx-log-out' id="log_out"></i>
             </div>
         </div>
     </div>

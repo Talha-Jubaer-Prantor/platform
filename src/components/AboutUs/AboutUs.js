@@ -71,7 +71,7 @@ const AboutUs = () => {
                   </div>
                   <div class="img-section">
                     <img
-                      src="https://avatars.githubusercontent.com/u/77773407?v=4"
+                      // src="https://avatars.githubusercontent.com/u/77773407?v=4"
                       alt=""
                     />
                   </div>
